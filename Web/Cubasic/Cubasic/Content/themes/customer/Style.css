@@ -1,0 +1,288 @@
+﻿
+/* Typography
+----------------------------------------------------------------------------- */
+
+html,
+body 
+{
+    font-family: "Microsoft Yahei";
+	font-size: 15px;
+	line-height: 1.50;	
+	background-color: #ffffff;
+	position: relative;
+	height: 100%;
+}
+
+/* Layout
+----------------------------------------------------------------------------- */
+.header {	
+	padding: 10px 0;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+.banner {
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	position: relative;	
+}
+.banner-image {
+	vertical-align: middle;
+	min-height: 100%;
+	width: 100%;
+}
+.banner-caption {
+	position: absolute;
+	top: 20%;
+	width: 100%;
+	z-index: 2;
+	
+}
+.banner-caption .title
+{
+    padding: 1em;
+    text-shadow: 1px 1px 5px #000;
+    background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.5) !important;
+    color: #fff;
+    font-family: "Microsoft Yahei";
+    margin-bottom: 1em;
+    }
+.banner-caption .title h1
+{
+    font-weight: 600;
+    letter-spacing: 1px;
+    
+    }
+.banner-caption .knowmore
+{
+    background-color:#FF6600; 
+    color:#fff;
+    font-family: "Microsoft Yahei";
+	font-size:15px;
+	border:none;
+	}
+	
+/*our service start*/
+.service .title
+{
+    font-size: 28px;
+    line-height: 1.1em;
+    }	
+
+.heading-border .hr-inner
+{
+    position: absolute;
+    width: 30%; 
+    height: 1px;
+    margin-top:10px;
+    margin-left:-15%;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color:#CCCCCC;  
+    }    
+.heading-border .hr-inner .hr-inner-style
+{
+    position:absolute;
+    border-radius: 20px;
+    height: 9px;
+    width: 9px;
+    margin-top:-5px;
+    margin-left:47%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #CCCCCC;
+    display: block;  
+    background-color:#004B74;  
+    }
+
+.service .thumbnail h4
+{
+   font-weight: bold;
+    }
+.service .thumbnail li
+{
+    font-size:14px;
+    }
+/*our service end*/
+
+/*our focus on start */
+.focuson
+{
+    background-image: url("../../../Images/customer/bg.jpg") ;
+    color:#000;
+    }
+.zoom { 
+    display:block; 
+    position:relative; 
+    overflow:hidden; 
+}
+
+.zoomOverlay {
+    position:absolute;
+    top:0; left:0;
+    bottom:0; right:0;
+    display:none;
+    background-image:url("../../../Images/customer/zoom.png");
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+/*our focus on end */
+.footerNav {
+ 	color: #FF6600;
+    font-family: "Microsoft Yahei";
+    font-size: 20px;
+}
+.subfooter {
+	background-color: #fafafa;
+	border-top: 1px solid #f3f3f3;
+	border-bottom: 1px solid #f3f3f3;
+	padding: 40px 0;
+}
+.footer{
+	font-family: "Microsoft Yahei";
+	font-size:12px;
+}
+.footer li
+{
+  	list-style: none;
+  	line-height:200%;
+  	
+}
+.footer a
+{
+    color: #000;
+    }
+.footer .focus{
+	overflow: hidden;
+	padding-bottom: 20px;
+}
+.footer .qrCode{
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+.footer .infor{
+	width: 104px;
+	float: left;
+	line-height: 20px;
+	font-size: 12px;
+}
+asdada
+/* Navigations
+----------------------------------------------------------------------------- */
+.header .navbar 
+{
+   	margin-bottom: 0;
+}
+
+.main-navigation .navbar-default 
+{
+    /* set the background-color to transparent */
+	background-color: transparent;
+	border: none;
+}
+.main-navigation .navbar-default .navbar-nav > li > a 	
+{
+    font-family: "Microsoft Yahei";
+	color:#fff;
+	font-size: 15px;
+	font-weight: bold;
+	outline: none;
+}
+.fixed-header-on .main-navigation .navbar-default .navbar-nav > li > a {	
+	color:#808080;	
+}
+.main-navigation .navbar-default .navbar-nav > li.active > a {
+	background-color: transparent;
+	color: #fff;
+}
+.fixed-header-on .main-navigation .navbar-default .navbar-nav > li.active > a {
+	background-color: transparent;
+	color: #808080;
+}
+
+.fixed-header-on .main-navigation .navbar-default .navbar-nav > li > a:hover,
+.fixed-header-on .main-navigation .navbar-default .navbar-nav > li.active > a:hover {
+	color: #000;
+}
+.main-navigation .navbar-default .navbar-nav > li > a:hover,
+.main-navigation .navbar-default .navbar-nav > li.active > a:hover {
+	color: #0099CC;
+}
+@media (min-width:768px) {
+	.main-navigation .navbar-default .navbar-nav > li > a {
+		padding-top: 30px;
+		-webkit-transition: all 0.3s ease-in-out;
+		-moz-transition: all 0.3s ease-in-out;
+		-o-transition: all 0.3s ease-in-out;
+		-ms-transition: all 0.3s ease-in-out;
+		transition: all 0.3s ease-in-out;
+	}
+}
+@media (min-width:768px) and (max-width:991px) {
+	.main-navigation .container-fluid {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.navbar-nav {
+		float: left !important;
+	}
+	.main-navigation .navbar-default .navbar-nav > li > a 	
+    {       
+	    font-size: 12px;	   
+    }
+}
+@media (max-width:767px) {
+	.header.navbar-fixed-top {
+		position: absolute;
+	}
+	.navbar-collapse
+    {
+        background-color: #808080;
+    }
+}
+
+/* Fixed Header
+----------------------------------------------------------------------------- */
+.fixed-header-on .header 
+{  
+	background-color: #fff;
+	padding: 5px 0;
+}
+
+
+@media (min-width:768px) {
+	.fixed-header-on .navbar-default .navbar-nav > li > a {
+		
+	}
+}
+
+/* Blocks/Widgets
+----------------------------------------------------------------------------- */
+/* Logo, Site Name, Site Slogan
+---------------------------------- */
+.logo 
+{
+    margin-top: 10px;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+
+#scrollUp
+{
+    bottom: 20px;
+    right: 20px;
+    width: 75px;
+    height: 75px;
+    background-image: url("../../../Images/customer/top1.png");
+    background-size:75px 75px;
+    background-color: #808080;
+    outline: none;
+    }
