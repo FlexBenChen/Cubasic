@@ -119,7 +119,11 @@ body
     position:relative; 
     overflow:hidden; 
 }
-
+.zoom img
+{
+    width:160%;
+    height:90%;
+    }
 .zoomOverlay {
     position:absolute;
     top:0; left:0;
@@ -161,17 +165,60 @@ body
 	padding-bottom: 20px;
 }
 .footer .qrCode{
-	width: 100px;
-	height: 100px;
+	width: 50%;
 	float: left;
 }
 .footer .infor{
-	width: 104px;
+	width: 44%;
 	float: left;
+	margin-top:5px;
 	line-height: 20px;
 	font-size: 12px;
 }
-asdada
+.footer .hotline
+{
+    width:100%;
+    height:100px;
+    float:left;
+    border-bottom: 1px solid #EBEBEB;
+    border-top: 1px solid #EBEBEB;
+    }
+.footer .email
+{
+    width:100%;
+    height:100px;
+    float:left;
+    }
+.footer .hotline .phone {
+    float: left;
+    width: 20%;
+    padding-top: 9px;
+}
+.footer .hotline .text {
+    float: left;
+    width: 80%;
+}
+.footer .email .text {
+    float: left;
+    width: 75%;
+}
+.footer .orange {
+    color: #F68B20;
+    margin-bottom:0px;
+}
+.footer .number {
+    font-size: 22px;
+    margin:0px;
+}
+.footer .email .email-logo
+{
+    float: left;
+    width: 25%;
+    padding-top: 9px;
+    }
+.footer .demand {
+    margin:0px;
+}
 /* Navigations
 ----------------------------------------------------------------------------- */
 .header .navbar 
@@ -279,10 +326,9 @@ asdada
 {
     bottom: 20px;
     right: 20px;
-    width: 75px;
-    height: 75px;
-    background-image: url("../../../Images/customer/top1.png");
-    background-size:75px 75px;
-    background-color: #808080;
+    width:50px;
+    height:50px;
+    background-image: url("../../../Images/customer/top.png");
+    background-size:50px 50px;
     outline: none;
     }

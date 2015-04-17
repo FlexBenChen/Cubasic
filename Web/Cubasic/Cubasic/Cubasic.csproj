@@ -236,15 +236,16 @@
     <Content Include="Global.asax" />
     <Content Include="Icon.png" />
     <Content Include="Images\customer\bg.jpg" />
+    <Content Include="Images\customer\cloud.jpg" />
     <Content Include="Images\customer\e-commerce.jpg" />
+    <Content Include="Images\customer\email.png" />
     <Content Include="Images\customer\logo.png" />
+    <Content Include="Images\customer\phone.png" />
     <Content Include="Images\customer\top.png" />
     <Content Include="Images\customer\iov.jpg" />
     <Content Include="Images\customer\chain.jpg" />
-    <Content Include="Images\customer\cloud.png" />
     <Content Include="Images\customer\manufacture.jpg" />
     <Content Include="Images\customer\mechanical.jpg" />
-    <Content Include="Images\customer\smt.jpg" />
     <Content Include="Images\customer\solution.png" />
     <Content Include="Images\customer\develop.png" />
     <Content Include="Images\customer\outsource.png" />
@@ -253,8 +254,6 @@
     <Content Include="Images\customer\banner3.jpg" />
     <Content Include="Images\customer\facon.png" />
     <Content Include="Images\customer\CuBasic.jpg" />
-    <Content Include="Images\customer\top1.jpg" />
-    <Content Include="Images\customer\top1.png" />
     <Content Include="Images\customer\zoom.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />

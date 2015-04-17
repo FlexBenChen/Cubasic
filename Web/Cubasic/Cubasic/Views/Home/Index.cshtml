@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Cubasic</title>
     <!-- Favicon -->
-    <link rel="shortcut icon" href="../../Images/customer/facon.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="../../Icon.png" />
     <!-- Bootstrap core CSS-->
     <link href="../../Content/bootstrap.css" rel="Stylesheet" />
     <!-- Font Awesome -->
@@ -70,8 +70,8 @@
 											<ul class="nav navbar-nav navbar-right">
 												<li><a href="#banner">首页</a></li>
 												<li><a href="#about">关于我们</a></li>
-												<li><a href="#services">我们的服务</a></li>
-												<li><a href="#portfolio">专注方向</a></li>
+												<li><a href="#service">我们的服务</a></li>
+												<li><a href="#focuson">专注方向</a></li>
 												<li><a href="#clients">我们的客户</a></li>
 												<li><a href="#contact">联系我们</a></li>
 											</ul>
@@ -118,7 +118,7 @@
     </div>
     <!-- banner end -->
     <!-- our service start-->
-    <div class="service">
+    <div class="service" id="service">
         <div class="container">
             <div class="row text-center">
                 <h2 class="title">
@@ -192,7 +192,7 @@
     </div>
     <!-- our service end -->
     <!-- our focus on start-->
-    <div class="focuson">
+    <div class="focuson" id="focuson">
         <div class="container">
             <div class="row text-center">
                 <h2 class="title">
@@ -204,7 +204,7 @@
             <br />
             <br />
             <div class="row">
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="thumbnail" style="background-color: transparent; border: none;">
                         <a href="#" class="zoom">
                             <img src="../../Images/customer/manufacture.jpg" class="img-rounded" alt="manufacture" /></a>
@@ -214,17 +214,17 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="thumbnail" style="background-color: transparent; border: none;">
                         <a href="#" class="zoom">
-                            <img src="../../Images/customer/cloud.png" class="img-rounded" alt="cloud" /></a>
+                            <img src="../../Images/customer/cloud.jpg" class="img-rounded" alt="cloud" /></a>
                         <div class="caption">
                             <h4 class="text-center">
                                 云服务及应用</h4>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="thumbnail" style="background-color: transparent; border: none;">
                         <a href="#" class="zoom">
                             <img src="../../Images/customer/mechanical.jpg" class="img-rounded" alt="mechanical" /></a>
@@ -237,7 +237,7 @@
             </div>
             <br />
             <div class="row">
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="thumbnail" style="background-color: transparent; border: none;">
                         <a href="#" class="zoom">
                             <img src="../../Images/customer/iov.jpg" class="img-rounded" alt="iov" /></a>
@@ -247,7 +247,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="thumbnail" style="background-color: transparent; border: none;">
                         <a href="#" class="zoom">
                             <img src="../../Images/customer/chain.jpg" class="img-rounded" alt="chain" /></a>
@@ -257,7 +257,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="thumbnail" style="background-color: transparent; border: none;">
                         <a href="#" class="zoom">
                             <img src="../../Images/customer/e-commerce.jpg" class="img-rounded" alt="e-commerce" /></a>
@@ -280,7 +280,7 @@
         <div class="footer">
         	<div class="container">
     			<div class="row">
-    				<div class="col-md-2 col-sm-4 col-xs-12">							
+    				<div class="col-md-2 col-sm-3 col-xs-8">							
 						<ul>
 							<li class="footerNav">关于我们</li>
 							<li><a href="">关于CuBasic</a></li>
@@ -290,25 +290,34 @@
 							<li><a href="">新闻中心</a></li>
 						</ul>
     				</div>
-    				<div class="col-md-2 col-sm-4 col-xs-12">    					
+    				<div class="col-md-2 col-sm-3 col-xs-8">    					
     					<ul>
     						<li class="footerNav">我们的服务</li>
-    						<li><a href="">门户网站建立</a></li>
+    						<li><a href="">行业解决方案</a></li>
+    						<li><a href="">软件开发</a></li>
+    						<li><a href="">外包服务</a></li>
+    					</ul>
+    				</div>
+    				<div class="col-md-2 col-sm-3 col-xs-8">
+    					<ul>
+    						<li class="footerNav">服务领域</li>
+                            <li><a href="">电子制造服务业</a></li>
+    						<li><a href="">云服务及应用</a></li>
+    						<li><a href="">机械制造行业</a></li>
+                            <li><a href="">车联网</a></li>
+                            <li><a href="">连锁经营</a></li>
+                            <li><a href="">电子商务</a></li>
+    					</ul>	    					
+    				</div>
+    				<div class="col-md-2 col-sm-3 col-xs-8">
+    					<ul>
+	    					<li class="footerNav">专注方向</li>
+                            <li><a href="">门户网站建立</a></li>
     						<li><a href="">行业解决方案</a></li>
     						<li><a href="">外包服务</a></li>
     					</ul>
     				</div>
-    				<div class="col-md-2 col-sm-4 col-xs-12">
-    					<ul>
-    						<li class="footerNav">服务领域</li>
-    					</ul>	    					
-    				</div>
-    				<div class="col-md-2 col-sm-4 col-xs-12">
-    					<ul>
-	    					<li class="footerNav">专注方向</li>
-    					</ul>
-    				</div>
-    				<div class="col-md-3 col-sm-4 col-xs-12">
+    				<div class="col-md-3 col-sm-4 col-xs-8">
     					<ul>
     						<li class="footerNav">关注我们</li>
                             <li>
@@ -317,13 +326,31 @@
                                         <img src="../../Images/customer/CuBasic.jpg" alt="Wechat" width="100%"/>
                                     </div>
                                     <div class="infor">
-                                        <p><span>在微信、新浪微博上关注我们，我们将和你互动。</span></p>
-                                    </div>
+                                        <p><span>在微信、新浪、腾讯、网易和搜狐微博上关注我们，我们将和你互动。</span></p>
+                                   </div>                           
+                                </div>                                                                                        
+                                <div class="hotline">
                                     <br />
+                                    <div class="phone">
+                                        <img src="../../Images/customer/phone.png" alt="phone" />    
+                                    </div>    
+                                    <div class="text">
+                                        <p class="orange">全国业务咨询热线</p>
+                                        <p class="number">13727076319</p>
+                                    </div>
+                                </div>                                                                               
+                                <div class="email">
+                                    <br />
+                                    <div class="email-logo">
+                                        <img src="../../Images/customer/email.png" alt="email" />    
+                                    </div>    
+                                    <div class="text">
+                                        <p class="demand">提交您的项目需求</p>
+                                        <p>btn_chen@163.com</p>
+                                    </div>
                                 </div>
                             </li>
-    					</ul>   					
-    				
+    					</ul>   					    				
                     </div>
     			</div>
         	</div>
