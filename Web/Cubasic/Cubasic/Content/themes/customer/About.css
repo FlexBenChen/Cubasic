@@ -1,0 +1,58 @@
+﻿body 
+{
+    position:relative;
+    font-family: "Helvetica Neue",Helvetica,Microsoft Yahei,Hiragino Sans GB,WenQuanYi Micro Hei,sans-serif;
+}
+
+.bs-docs-sidebar
+{
+    padding-left: 20px;
+    }
+    
+.bs-docs-sidebar.affix, .bs-docs-sidebar.affix-bottom {
+    width: 263px;
+}
+
+.bs-docs-sidebar.affix {
+    position: fixed;
+    top: 20px;
+}
+
+.bs-docs-sidebar.affix .bs-docs-sidenav, .bs-docs-sidebar.affix-bottom .bs-docs-sidenav {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+    
+.nav
+{
+    padding-left:0px;
+    list-style:outside none none;
+    }
+   
+.bs-docs-sidebar .nav > li > a {
+    display: block;
+    padding: 4px 20px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #767676;
+}
+
+.bs-docs-sidebar .nav > .active:focus > a, 
+.bs-docs-sidebar .nav > .active:hover > a, 
+.bs-docs-sidebar .nav > .active > a {
+    padding-left: 18px;
+    font-weight: 700;
+    color: #563D7C;
+    background-color: transparent;
+    border-left: 2px solid #563D7C;
+}
+ 
+
+
+.bs-docs-sidebar .nav .nav > li > a {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 30px;
+    font-size: 12px;
+    font-weight: 400;
+}

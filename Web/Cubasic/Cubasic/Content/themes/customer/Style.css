@@ -253,7 +253,7 @@ body
 }
 
 .fixed-header-on .main-navigation .navbar-default .navbar-nav > li > a:hover,
-.fixed-header-on .main-navigation .navbar-default .navbar-nav > li.active > a:hover {
+.fixed-header-on .main-navigation .navbar-default .navbar-nav > li.active >a{
 	color: #000;
 }
 .main-navigation .navbar-default .navbar-nav > li > a:hover,
