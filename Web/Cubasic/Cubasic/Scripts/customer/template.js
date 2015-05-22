@@ -8,6 +8,13 @@
             speed: 300 // speed of the hover
          }); // Default
 
+        if ($(".scrollspy").length > 0) {
+            $("body").addClass("scroll-spy");
+            $('body').scrollspy({
+                target: '.scrollspy',
+                offset: 152
+            });
+        }
         $.scrollUp({
             scrollName: 'scrollUp',      // Element ID
             scrollDistance: 300,         // Distance from top/bottom before showing element (px)
